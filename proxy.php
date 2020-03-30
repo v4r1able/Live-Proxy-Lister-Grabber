@@ -1,5 +1,5 @@
 <?php
-//v4t1.eu // v4r1able - t13r
+//v4t1.eu // v4r1able - t13r - ninjanetwork
 $liste = file_get_contents("https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=50&country=all&ssl=all&anonymity=all");
 $proxy_ex = explode("\n",$liste);
 $deger = ("5"); // listeden ne kadar proxy kontrol edilsin burda belirtirsiniz default 5 listede ki tum proxyleri kontrol etmek istiyorsanız $deger = count($proxy_ex); olarak burayı degistirin.
